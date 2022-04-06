@@ -1,0 +1,312 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('roboto.eot'); /* IE9 Compat Modes */
+    src: url('roboto.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('roboto.woff') format('woff'), /* Modern Browsers */
+    url('roboto.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('roboto.svg#svgFontName') format('svg'); /* Legacy iOS */
+  }
+
+
+html, body{
+    margin:0;
+    padding: 0;
+    background-color: #242582;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+
+    width: 100%;
+    height: 600px;
+    background-image: url("game.jpeg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.header{
+    width: 100%;
+    height: 70px;
+    /*background-color: #242582;*/
+    background-color: rgba(36, 37, 130, 0.3);
+}
+
+.web{
+
+    padding-top: 20px;
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+}
+.kiri{
+    padding: 10px;
+    width: 20%;
+    float: left;
+}
+.menu{
+    display: inline-flex;
+    float: right;
+    width: 20%;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+
+    list-style: none;
+    display: inline-flex;
+}
+
+li{
+    padding-top: 10px;
+    padding-left: 40px;
+  
+}
+
+.seminar{
+
+    width: 75%;
+    height: 400px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title{ 
+    margin-top: 0px;
+    color: white;
+}
+
+.daftar{
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #F64C72 ;
+    padding:10px;
+    margin: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.daftar:hover{
+    background-color: #832d3f;
+}
+
+
+
+.menu-icon{
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding:21px;
+    display: none;
+}
+
+
+.line{
+    width: 100%;
+    border-bottom:2px solid white ;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+
+}
+
+/*buat search di navbar*/
+
+
+
+/*Daftar*/
+.invisible{
+    display: none;
+}
+.formDaftar{
+   
+    color: white;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+
+.input{
+    width: 100%;
+    height: 30px;
+    background-color: #2f2fa2;
+    border-bottom: 2px solid #F64C72;
+    border-top:0;
+    border-left: 0;
+    border-right: 0;
+    color:white;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.inputRadio{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+
+.btn-reg{
+    text-align: center;
+    color: white;
+    background-color: #242582;
+    border: 2px solid #F64C72;
+    padding: 10px;
+    width: 150px;
+    margin-top:30px;
+    margin-bottom:30px;
+    float: right;
+}
+
+.btn-reg:hover{
+    cursor: pointer;
+    background-color: #832d3f;
+
+}
+
+
+input[type="radio"]{
+    display: none;
+}
+
+label{
+
+    border:2px solid #F64C72;
+
+    padding:10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    width: 80px;
+    display: inline-flex;
+    margin-right: auto;
+    margin-left:auto;
+}
+
+label:hover{
+    background-color: #F64C72;
+}
+input:checked+label{
+    background-color: #F64C72;
+}
+
+/*buat done.html*/
+.done{
+    width: 100%;
+    color: white;
+    text-align: center;
+  
+}
+
+.kembali{
+    width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*seminar.html*/
+.title-atas{
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-top: 150px;
+    text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0  rgb(0, 0, 0), 0 2px 0  rgb(0, 0, 0), 0 -2px 0  rgb(0, 0, 0), 1px 1px  rgb(0, 0, 0), -1px -1px 0  rgb(0, 0, 0), 1px -1px 0  rgb(0, 0, 0), -1px 1px 0  rgb(0, 0, 0);
+
+}
+
+
+.informasi-link{
+    height: 100px;
+    padding-top: 30px;
+}
+
+.foto-pemateri{
+    height: 150px;
+    width: 150px;
+    border:2px solid white;
+    border-radius: 75px;
+    background-image: url("pemateri.jpg"); 
+    background-color: #cccccc; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.foto-pemateri-2{
+    height: 150px;
+    width: 150px;
+    border:2px solid white;
+    border-radius: 75px;
+    background-image: url("todd.jpg");
+    background-color: #cccccc; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    margin-left: auto;
+}
+
+.narasumber{
+
+    width: 600px;
+    padding: 20px;
+    margin:30px;
+    border:3px solid white;
+    border-radius: 100px;
+    display: inline-flex;
+}
+.white{
+    color:white;
+}
+.nama-pemateri{
+    color: white;
+    width: 400px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.deskripsi-pemateri{
+    text-align: justify;
+}
+
+.kanan{
+    float: right;
+    text-align: right;
+    align-items: right;
+
+}
+
+.kiri{
+    float: left;
+    text-align: left;
+    align-items: left;
+}
+
+.informasi{
+    background-color: #2f2fa2;
+    height: 400px;
+
+}
+
+/*Informasi seminar dan fasilitas seminar*/
+.detail-seminar, .fasilitas-seminar{
+    width: 100%;
+    margin:20px;
+    
+}
+
+.inline-seminar{
+    width: 100%;
+    display: inline-flex;
+    text-align: left;
+}
+

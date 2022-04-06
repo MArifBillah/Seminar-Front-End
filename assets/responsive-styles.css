@@ -1,0 +1,187 @@
+@media only screen and (max-width: 1366px){
+
+    .seminar{
+        width: 100%;
+        padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+   
+
+    }
+
+    .narasumber{
+
+        width: 560px;
+        padding: 20px;
+        margin:30px;
+        border:3px solid white;
+        border-radius: 75px;
+        display: inline-flex;
+    }
+
+    .informasi-responsive{
+        width: 80%;
+    }
+    li{
+        margin-right: 10px;
+        padding:5px;
+  
+    }
+
+    .line{
+        width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .formDaftar{
+        text-align: left;
+    }
+
+
+}
+@media only screen and (max-width: 1080px){
+				.narasumber-responsive{
+								height:660px;
+								
+				}
+				
+				.narasumber{
+
+        width: 600px;
+        padding: 20px;
+        margin:30px;
+        border:2px solid white;
+        border-radius: 75px;
+        display: inline-flex;
+        margin-right: auto;
+        margin-left: auto;
+        float: none;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 900px){
+
+    .seminar{
+        width: 100%;
+        padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+ 
+    }
+
+    li{
+        padding: 10px;
+  
+    }
+
+    .informasi{
+        height: 300px;
+        font-size: 11px;
+    }
+
+    .narasumber-responsive{
+        height: 600px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 670px){
+    .isi-title-atas{
+        padding:20px ;
+    }
+    
+    header{
+    				height:800px;
+    }
+    
+    .narasumber{
+
+        width: 330px;
+        padding: 20px;
+        margin:30px;
+        border:2px solid white;
+        border-radius: 75px;
+        display: inline-flex;
+        margin-right: auto;
+        margin-left: auto;
+        float: none;
+        font-size: 12px;
+    }
+
+    .nama-pemateri{
+        width: 130px;
+    }
+
+    .foto-pemateri, .foto-pemateri-2{
+        width: 150px;
+        height: 150px;
+    }
+
+    .informasi{
+        height: 450px;
+        font-size: 11px;
+        float:none;
+    }
+    .detail-seminar{
+    				width:95%;
+    				height:200px;
+    				margin-left:auto;
+    				margin-right:auto;
+    }
+
+.inline-seminar{
+				display:inline-block;
+}
+
+
+    .narasumber-responsive{
+        height: 700px;
+    }
+    .tengah{
+        width: 100%;
+    }
+
+    .title{
+        text-align: center;
+    }
+
+    .seminar{
+        width: 100%;
+        padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+
+  
+    }
+
+    li{
+        padding: 10px;
+        margin-right: 10px;
+    }
+
+
+    .menu{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+
+
+    .formDaftar{
+        width: 90%;
+    }
+
+    .terdaftar{
+        font-size: 20px;
+    }
+    .informasi-link{
+    				font-size:12px;
+    }
+}
